@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		222BC9D12C4C3A91009FFD60 /* 4-Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BC9D02C4C3A91009FFD60 /* 4-Gradient.swift */; };
 		222BC9D32C4C3EBB009FFD60 /* 5-Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222BC9D22C4C3EBB009FFD60 /* 5-Icons.swift */; };
+		226F00AB2C4CFBD300E36CD4 /* 6-Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F00AA2C4CFBD300E36CD4 /* 6-Image.swift */; };
+		226F00AD2C4CFEC700E36CD4 /* 7-frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F00AC2C4CFEC700E36CD4 /* 7-frames.swift */; };
+		226F00AF2C4D01B900E36CD4 /* 8-bg&overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F00AE2C4D01B900E36CD4 /* 8-bg&overlays.swift */; };
 		22C45E782C482013001E3020 /* Shapes-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E772C482013001E3020 /* Shapes-2.swift */; };
 		22C45E7A2C482885001E3020 /* 3-colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E792C482885001E3020 /* 3-colors.swift */; };
 		22F6DC152C46D35200C0A370 /* swiftui_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F6DC142C46D35200C0A370 /* swiftui_1App.swift */; };
@@ -21,6 +24,9 @@
 /* Begin PBXFileReference section */
 		222BC9D02C4C3A91009FFD60 /* 4-Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "4-Gradient.swift"; sourceTree = "<group>"; };
 		222BC9D22C4C3EBB009FFD60 /* 5-Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5-Icons.swift"; sourceTree = "<group>"; };
+		226F00AA2C4CFBD300E36CD4 /* 6-Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "6-Image.swift"; sourceTree = "<group>"; };
+		226F00AC2C4CFEC700E36CD4 /* 7-frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7-frames.swift"; sourceTree = "<group>"; };
+		226F00AE2C4D01B900E36CD4 /* 8-bg&overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "8-bg&overlays.swift"; sourceTree = "<group>"; };
 		22C45E772C482013001E3020 /* Shapes-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shapes-2.swift"; sourceTree = "<group>"; };
 		22C45E792C482885001E3020 /* 3-colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-colors.swift"; sourceTree = "<group>"; };
 		22F6DC112C46D35200C0A370 /* swiftui-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +76,9 @@
 				22C45E792C482885001E3020 /* 3-colors.swift */,
 				222BC9D02C4C3A91009FFD60 /* 4-Gradient.swift */,
 				222BC9D22C4C3EBB009FFD60 /* 5-Icons.swift */,
+				226F00AA2C4CFBD300E36CD4 /* 6-Image.swift */,
+				226F00AC2C4CFEC700E36CD4 /* 7-frames.swift */,
+				226F00AE2C4D01B900E36CD4 /* 8-bg&overlays.swift */,
 			);
 			path = "swiftui-1";
 			sourceTree = "<group>";
@@ -158,7 +167,10 @@
 				22F6DC172C46D35200C0A370 /* ContentView.swift in Sources */,
 				22F6DC232C46D7D500C0A370 /* testview.swift in Sources */,
 				22F6DC152C46D35200C0A370 /* swiftui_1App.swift in Sources */,
+				226F00AD2C4CFEC700E36CD4 /* 7-frames.swift in Sources */,
+				226F00AB2C4CFBD300E36CD4 /* 6-Image.swift in Sources */,
 				22C45E7A2C482885001E3020 /* 3-colors.swift in Sources */,
+				226F00AF2C4D01B900E36CD4 /* 8-bg&overlays.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
