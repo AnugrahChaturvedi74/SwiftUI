@@ -30,6 +30,8 @@
 		2280661A2C60A3480038083D /* 29-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066192C60A3480038083D /* 29-Alert.swift */; };
 		2280661C2C60AC290038083D /* 30-actionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280661B2C60AC290038083D /* 30-actionSheet.swift */; };
 		2280661E2C60B17F0038083D /* 31-ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280661D2C60B17F0038083D /* 31-ContextMenu.swift */; };
+		228066202C6127770038083D /* 32-TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280661F2C6127770038083D /* 32-TextField.swift */; };
+		228066222C612CC80038083D /* 33-TextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066212C612CC80038083D /* 33-TextEditor.swift */; };
 		22C45E782C482013001E3020 /* Shapes-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E772C482013001E3020 /* Shapes-2.swift */; };
 		22C45E7A2C482885001E3020 /* 3-colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E792C482885001E3020 /* 3-colors.swift */; };
 		22CD22E72C5CEB3200432326 /* 16-safeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CD22E62C5CEB3200432326 /* 16-safeArea.swift */; };
@@ -68,6 +70,8 @@
 		228066192C60A3480038083D /* 29-Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "29-Alert.swift"; sourceTree = "<group>"; };
 		2280661B2C60AC290038083D /* 30-actionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30-actionSheet.swift"; sourceTree = "<group>"; };
 		2280661D2C60B17F0038083D /* 31-ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31-ContextMenu.swift"; sourceTree = "<group>"; };
+		2280661F2C6127770038083D /* 32-TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "32-TextField.swift"; sourceTree = "<group>"; };
+		228066212C612CC80038083D /* 33-TextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "33-TextEditor.swift"; sourceTree = "<group>"; };
 		22C45E772C482013001E3020 /* Shapes-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shapes-2.swift"; sourceTree = "<group>"; };
 		22C45E792C482885001E3020 /* 3-colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-colors.swift"; sourceTree = "<group>"; };
 		22CD22E62C5CEB3200432326 /* 16-safeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16-safeArea.swift"; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				228066192C60A3480038083D /* 29-Alert.swift */,
 				2280661B2C60AC290038083D /* 30-actionSheet.swift */,
 				2280661D2C60B17F0038083D /* 31-ContextMenu.swift */,
+				2280661F2C6127770038083D /* 32-TextField.swift */,
+				228066212C612CC80038083D /* 33-TextEditor.swift */,
 			);
 			path = "swiftui-1";
 			sourceTree = "<group>";
@@ -232,6 +238,7 @@
 			files = (
 				22CD22EB2C5CFB4400432326 /* 18-state.swift in Sources */,
 				226F00B32C4D831C00E36CD4 /* 10-padding.swift in Sources */,
+				228066222C612CC80038083D /* 33-TextEditor.swift in Sources */,
 				228066142C5FEA820038083D /* 26-presenting.swift in Sources */,
 				2280661A2C60A3480038083D /* 29-Alert.swift in Sources */,
 				222BC9D32C4C3EBB009FFD60 /* 5-Icons.swift in Sources */,
@@ -240,6 +247,7 @@
 				222BC9D12C4C3A91009FFD60 /* 4-Gradient.swift in Sources */,
 				22C45E782C482013001E3020 /* Shapes-2.swift in Sources */,
 				221A26FD2C5B58A600E74907 /* 12-initandEnums.swift in Sources */,
+				228066202C6127770038083D /* 32-TextField.swift in Sources */,
 				22CD22E72C5CEB3200432326 /* 16-safeArea.swift in Sources */,
 				225CA0042C5E9CDA00531112 /* 25-popUP.swift in Sources */,
 				223029472C5C941600767716 /* 15-Grids.swift in Sources */,
