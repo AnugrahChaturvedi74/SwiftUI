@@ -25,6 +25,11 @@
 		226F00B12C4D76D000E36CD4 /* 9-stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F00B02C4D76D000E36CD4 /* 9-stacks.swift */; };
 		226F00B32C4D831C00E36CD4 /* 10-padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226F00B22C4D831C00E36CD4 /* 10-padding.swift */; };
 		228066142C5FEA820038083D /* 26-presenting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066132C5FEA820038083D /* 26-presenting.swift */; };
+		228066162C5FEF480038083D /* 27-navigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066152C5FEF480038083D /* 27-navigationView.swift */; };
+		228066182C6088200038083D /* 28-List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066172C6088200038083D /* 28-List.swift */; };
+		2280661A2C60A3480038083D /* 29-Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228066192C60A3480038083D /* 29-Alert.swift */; };
+		2280661C2C60AC290038083D /* 30-actionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280661B2C60AC290038083D /* 30-actionSheet.swift */; };
+		2280661E2C60B17F0038083D /* 31-ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2280661D2C60B17F0038083D /* 31-ContextMenu.swift */; };
 		22C45E782C482013001E3020 /* Shapes-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E772C482013001E3020 /* Shapes-2.swift */; };
 		22C45E7A2C482885001E3020 /* 3-colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C45E792C482885001E3020 /* 3-colors.swift */; };
 		22CD22E72C5CEB3200432326 /* 16-safeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CD22E62C5CEB3200432326 /* 16-safeArea.swift */; };
@@ -58,6 +63,11 @@
 		226F00B02C4D76D000E36CD4 /* 9-stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9-stacks.swift"; sourceTree = "<group>"; };
 		226F00B22C4D831C00E36CD4 /* 10-padding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10-padding.swift"; sourceTree = "<group>"; };
 		228066132C5FEA820038083D /* 26-presenting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26-presenting.swift"; sourceTree = "<group>"; };
+		228066152C5FEF480038083D /* 27-navigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27-navigationView.swift"; sourceTree = "<group>"; };
+		228066172C6088200038083D /* 28-List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28-List.swift"; sourceTree = "<group>"; };
+		228066192C60A3480038083D /* 29-Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "29-Alert.swift"; sourceTree = "<group>"; };
+		2280661B2C60AC290038083D /* 30-actionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "30-actionSheet.swift"; sourceTree = "<group>"; };
+		2280661D2C60B17F0038083D /* 31-ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "31-ContextMenu.swift"; sourceTree = "<group>"; };
 		22C45E772C482013001E3020 /* Shapes-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Shapes-2.swift"; sourceTree = "<group>"; };
 		22C45E792C482885001E3020 /* 3-colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3-colors.swift"; sourceTree = "<group>"; };
 		22CD22E62C5CEB3200432326 /* 16-safeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "16-safeArea.swift"; sourceTree = "<group>"; };
@@ -133,6 +143,11 @@
 				225CA0012C5E9AC500531112 /* 24-transition.swift */,
 				225CA0032C5E9CDA00531112 /* 25-popUP.swift */,
 				228066132C5FEA820038083D /* 26-presenting.swift */,
+				228066152C5FEF480038083D /* 27-navigationView.swift */,
+				228066172C6088200038083D /* 28-List.swift */,
+				228066192C60A3480038083D /* 29-Alert.swift */,
+				2280661B2C60AC290038083D /* 30-actionSheet.swift */,
+				2280661D2C60B17F0038083D /* 31-ContextMenu.swift */,
 			);
 			path = "swiftui-1";
 			sourceTree = "<group>";
@@ -218,6 +233,7 @@
 				22CD22EB2C5CFB4400432326 /* 18-state.swift in Sources */,
 				226F00B32C4D831C00E36CD4 /* 10-padding.swift in Sources */,
 				228066142C5FEA820038083D /* 26-presenting.swift in Sources */,
+				2280661A2C60A3480038083D /* 29-Alert.swift in Sources */,
 				222BC9D32C4C3EBB009FFD60 /* 5-Icons.swift in Sources */,
 				226F00B12C4D76D000E36CD4 /* 9-stacks.swift in Sources */,
 				22CD22ED2C5CFDE700432326 /* 19-extractedView.swift in Sources */,
@@ -227,13 +243,17 @@
 				22CD22E72C5CEB3200432326 /* 16-safeArea.swift in Sources */,
 				225CA0042C5E9CDA00531112 /* 25-popUP.swift in Sources */,
 				223029472C5C941600767716 /* 15-Grids.swift in Sources */,
+				228066162C5FEF480038083D /* 27-navigationView.swift in Sources */,
 				221A26FF2C5B5BF500E74907 /* 13-forEach.swift in Sources */,
 				225CA0002C5E983300531112 /* 23-animationCurve.swift in Sources */,
 				22F6DC172C46D35200C0A370 /* ContentView.swift in Sources */,
+				2280661E2C60B17F0038083D /* 31-ContextMenu.swift in Sources */,
 				22F6DC232C46D7D500C0A370 /* testview.swift in Sources */,
 				225C9FFC2C5E765900531112 /* 21-Binding.swift in Sources */,
 				225C9FFE2C5E7B1D00531112 /* 22-Animation.swift in Sources */,
+				228066182C6088200038083D /* 28-List.swift in Sources */,
 				22F6DC152C46D35200C0A370 /* swiftui_1App.swift in Sources */,
+				2280661C2C60AC290038083D /* 30-actionSheet.swift in Sources */,
 				221A27012C5B5F9300E74907 /* 14-scrollView.swift in Sources */,
 				22CD22E92C5CF0E000432326 /* 17-buttons.swift in Sources */,
 				226F00AD2C4CFEC700E36CD4 /* 7-frames.swift in Sources */,
